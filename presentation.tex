@@ -1,5 +1,6 @@
 \documentclass[11pt,xcolor={dvipsnames},hyperref={pdftex,pdfpagemode=UseNone,hidelinks,pdfdisplaydoctitle=true},usepdftitle=false]{beamer}
 \usepackage{presentation}
+\usepackage{tasks}
 % Enter title of presentation PDF:
 \hypersetup{pdftitle={Presentation Title}}
 % Enter link to PDF file with figures:
@@ -7,220 +8,167 @@
 
 \begin{document}
 % Enter presentation title:
-\title{Presentation Title}
+\title{How to read and present a research paper}
 % Enter presentation information:
 \information%
 % Enter link to research paper (optional; comment line if not needed):
-[https://github.com/pmichaillat/latex-presentation]
+%[https://github.com/zenas91/advance-topics]
 % Enter presentation authors:
-{Author 1, Author 2}%
+{Chukwuebuka Ezelu, Prof. Dr. Florian Wahl}%
 % Enter presentation location and date (optional; comment line if not needed):
-{Location -- Date}
+{20.10.2023}
 \frame{\titlepage}
 
 % Fill out content of presentation:
 \begin{frame}
-\frametitle{Slide title}
+	\frametitle{Agenda}
+	\begin{itemize}
+		\item Reading a research paper
+		\begin{itemize}
+			\item Structure of scientific paper
+			\item Three Pass Approach
+		\end{itemize}
+		\item Presenting a research paper
+		\begin{itemize}
+			\item Core Concepts and Scientific Contribution
+			\item Result of the Scientific Study
+			\item Author's Conclusions
+			\item Personal Conclusions
+		\end{itemize}
+		\item Conclusion
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\heading{Reading a Resarch Paper}
+\end{frame}
+
+\begin{frame}
+\frametitle{Structure of scientific paper}
+While there can be variations in the structure of scientific papers, there is a fundamental framework that applies to various fields. These components typically include::
 \begin{itemize}
-\item Consectetur adipiscing elit
-\item Sed do eiusmod tempor incididunt
-\item Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-\item Ut labore et dolore magna aliqua
+\item Title
+\item Abstract
+\item Keywords
+\item Introduction
+\item Method
+\item Result
+\item Discussion
+\item Reference
 \end{itemize}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with a very, very long title: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat}
-Lorem ipsum dolor sit amet:
-\begin{itemize}
-\item Consectetur adipiscing elit
-\item Sed do eiusmod tempor incididunt
-\item Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-\item Ut labore et dolore magna aliqua
-\end{itemize}
+	\frametitle{Abstract}
+	This is the summary of the entire paper and contains four pieces of information, namely:
+	\begin{enumerate}
+		\item Rationale of the study:  This essentially defines the necessity for the study.
+		\item Method: Explains the methodology adopted for the study. In other words, it explains how the study was conducted.
+		\item Result: This is the observation of the study.
+		\item Conclusion: The interpretation of the result or rather what the result means.
+	\end{enumerate}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with nested list}
-\begin{itemize}
-\item Lorem ipsum dolor sit amet
-\item Consectetur adipiscing elit
-\item Sed do eiusmod tempor incididunt:
-\begin{itemize}
-\item Quis nostrud exercitation ullamco laboris Quis nostrud exercitation ullamco laboris. Quis nostrud exercitation ullamco laboris. Quis nostrud exercitation ullamco laboris.
-\item Nisi ut aliquip ex ea commodo consequat
-\item Duis aute irure dolor in reprehenderit in voluptate
-\item Velit esse cillum dolore eu fugiat nulla pariatur
-\end{itemize}
-\item Ut labore et dolore magna aliqua
-\end{itemize}
+	\frametitle{Introduction and Method}
+	\begin{block}{Introduction}
+		The introduction gives background information about the topic and sets out specific questions to be addressed by the authors. You can skim through the introduction if you are already familiar with the paper’s topic
+	\end{block}
+	\begin{block}{Method}
+		The methods section gives technical details of how the experiments were carried out and serves as a “how-to” manual if you wanted to replicate the same experiments as the authors. This is another section you may want to only skim unless you wish to identify the methods used by the researchers or if you intend to replicate the research yourself.
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with numbered list}
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet
-\item Consectetur adipiscing elit
-\item Sed do eiusmod tempor incididunt
-\item Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-\item Ut labore et dolore magna aliqua
-\end{enumerate}
+	\frametitle{Results and Discussion}
+	\begin{block}{Result}
+		The results are the meat of the scientific article and contain all of the data from the experiments. You should spend time looking at all the graphs, pictures, and tables as these figures will contain most of the data.
+	\end{block}
+	\begin{block}{Discussion}
+		Lastly, the discussion is the authors’ opportunity to give their opinions. Keep in mind that the discussions are the authors’ interpretations and not necessarily facts. It is still a good place for you to get ideas about what kind of research questions are still unanswered in the field and what types of questions you might want your own research project to tackle. 
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with nested numbered list}
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet
-\item Consectetur adipiscing elit
-\item Sed do eiusmod tempor incididunt:
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet, consectetur adipisicing elit
-\item Ut enim ad minim veniam
-\item Quis nostrud exercitation ullamco laboris nisi ut aliquip
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-\end{enumerate}
-\item Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-\item Ut labore et dolore magna aliqua
-\end{enumerate}
+	\frametitle{Three Pass Approach}
+	\begin{block}{First Pass}
+		The first pass is a quick scan to get a bird’s-eye view of the paper. You can also decide whether you need to do any more passes. This pass should take about five to ten minutes and consists of the following steps:
+		\begin{itemize}
+			\item Carefully read the title, abstract, and introduction
+			\item Read the section and sub-section headings, but ignore
+			everything else
+			\item Read the conclusions
+			\item Glance over the references, mentally ticking off the
+			ones you’ve already read
+		\end{itemize}
+		At the end of the first pass, you should be able to answer
+		the five Cs:
+		\begin{tasks}[style=enumerate, item-format={\normalfont}, after-item-skip=4mm](4)
+			\task Category 
+			\task Context
+			\task Correctness
+			\task Contribution
+			\task Clarity
+		\end{tasks}
+	\end{block}
+	
 \end{frame}
 
 \begin{frame}
-\heading{Section title}
+	\frametitle{Three Pass Approach cont.}
+	
+	\begin{block}{Second Pass}
+		The second pass necessitates a more meticulous examination compared to the first pass. Read the paper attentively, paying closer attention to detail, while potentially disregarding intricate elements like proofs. It can be beneficial to take notes on the main points or annotate the margins as you progress through the text. In this pass, you should:
+		\begin{itemize}
+			\item Examine the figures, diagrams, and other illustrations in the paper meticulously. Give particular emphasis to graphs and charts.
+			\item Identify pertinent references that you haven't read yet and mark them for further exploration. This can provide a deeper understanding of the paper's background and context.
+		\end{itemize}
+		
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with math}
-\begin{itemize}
-\item Here are some Greek letters in math: $\alpha + \Gamma - \zeta \times \Lambda$
-\item Here are some blackboard bold letters: $\mathbb{R} + \mathbb{Q} - \mathbb{Z}$
-\item Here are some calligraphic letters: $\mathcal{A} - \mathcal{B} + \mathcal{Z} / \mathcal{H}$
-\item Here are some symbols and operators: $\ln(u) \in Q \to \cos(\theta) \leq \sin(\pi)$
-\item Here is an equation:
-\begin{equation*}
-\int_{0}^{\infty}e^{-\delta t} \ln(c_{j}(t))+ \mathcal{U}(b_{j}(t) - \mathcal{B}(t))- \frac{\zeta}{4} h_{j}(t) -\frac{\gamma}{8} \pi_{j}(t)^2\,dt
-\end{equation*}
-\item Here is a display with two equations, including bold math:
-\begin{align*}
-\bm{c}(\bm{t}) &= \prod_{j} \prod_{k} \bm{c}_{jk}(\bm{t})^{(\epsilon-1)/\epsilon} \\
-\dot{b}_{j}(t) &= i(t) b_{j}(t) + p_{j}(t)  y_{j}(t) - \sum_0^1 p_{k}(t) c_{jk}(t)\,dk
-\end{align*}
-\end{itemize}
+	\frametitle{Three Pass Approach cont.}
+	After the first two passes, you should be able to summarize the paper's main points, contributions, and findings, providing evidence from the text to support your summary.
+	\begin{block}{Third Pass}
+		The third pass, a crucial step in paper understanding and review, entails a thorough virtual re-implementation of the work. By recreating the paper's content while assuming the author's perspectives, you can reveal innovations, hidden limitations, and underlying assumptions. This process demands meticulous attention to detail and the questioning of every statement and assumption, fostering a deep understanding of the paper's techniques. It's an opportunity to generate ideas for future research. The outcome should be an in-depth understanding of the paper's structure, strengths, weaknesses, implicit assumptions, citation gaps, and potential issues in methodologies.
+	\end{block}
+\end{frame}
+
+
+\begin{frame}
+	\heading{Presenting a Research Paper}
 \end{frame}
 
 \begin{frame}
-\frametitle{Slide with alerts}
-\begin{itemize}
-\item Here is a basic alert: \al{important text}
-\item Here is a basic alert on the second click: \al[2]{important text}
-\item Here is a basic alert on the third click: \al[3]{important text}
-\item Here are various alerts to flag the sign of numbers:
-\begin{itemize}
-\item Positive number: \alg{+5}
-\item Negative number: \alr{-10}
-\item Zero number: \alb{0.0}
-\end{itemize}
-\item The same alerts on the second and third clicks:
-\begin{itemize}
-\item Positive number: \alg[2-3]{+5}
-\item Negative number: \alr[2-3]{-10}
-\item Zero number: \alb[2-3]{0.0}
-\end{itemize}
-\end{itemize}
+	\frametitle{Presenting a Research Paper}
+	When presenting a scientific paper, it's essential to cover four key areas, as explained below:
+	
+	\begin{block}{1. Core Concepts and Scientific Contribution}
+		Clearly articulating the paper's core contributions is essential, as it demonstrates a profound grasp of the topic and a clear awareness of its significance in the scientific domain.
+	\end{block}
+	
+	\begin{block}{2. Result of the Scientific Paper}
+		While stating the contributions could show an understanding of the topic, being able to judge the result of an experiment is an indispensable tool. It provides the foundation for the experiment conclusions that will follow.
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\heading{Slides with graphs}
+	\frametitle{Presenting a Research Paper cont.}
+	\begin{block}{3. Author's Conclusions}
+		The discussion and conclusion of most scientific papers contain the author's deductions based on their experimental results. This is a crucial component of presenting any scientific work as it declares whether the hypothesis was supported or refuted.
+	\end{block}
+	\begin{block}{4. Personal Conclusions}
+		This is particularly important when reviewing the work of others. Personal views can encompass various aspects, from evaluating the paper's structure to assessing the writing style. It also necessitates a solid understanding of the field to discern the validity of the paper's hypothesis and claims.
+	\end{block}
 \end{frame}
 
 \begin{frame}
-\frametitle{Caption for the graph}
-\includegraphics[scale=\lfig,page=4]{\pdf}%
-\end{frame}
-
-\begin{frame}
-\frametitle{Caption for the graphs (one graph per click)}
-\includegraphics<1>[scale=\lfig,page=1]{\pdf}%
-\includegraphics<2>[scale=\lfig,page=2]{\pdf}%
-\includegraphics<3>[scale=\lfig,page=3]{\pdf}%
-\includegraphics<4>[scale=\lfig,page=5]{\pdf}%
-\end{frame}
-
-\begin{frame}
-\heading{Slide with table}
-\end{frame}
-
-\begin{frame}
-\frametitle{Caption for the table}
-\begin{tabular*}{\textwidth}{@{\extracolsep\fill}lcccc}
-\toprule
- & Column 1 & Column 2 & Column 3 & Column 4\\
-\midrule
-Line 1 & A  & B & C  & C \\
-Line 2 & D & E & F & C \\ 
-Line 3 & G & H & I & C \\ 
-\midrule
-Line 4 & J & K & L & C \\ 
-Line 5 & M & N & O & C \\ 
-\bottomrule
-\end{tabular*}
-\end{frame}
-
-\begin{frame}
-\heading{A long section title: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat}
-\end{frame}
-
-\begin{frame}
-\frametitle{Pictograms}
-\begin{itemize}
-\item implication: this \so that
-\item sequential events: this \then that
-\item something is going up: \up
-\item something is going down: \down
-\item something is not changing: \flat 
-\end{itemize}
-\end{frame}
-
-\begin{frame}[label=firstSlide]
-\frametitle{Button}
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-\item  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. 
-\item Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-\end{enumerate}
-\hyperlink{backupSlide}{\beamergotobutton{Go to a first backup slide}}
-\hyperlink{anotherBackupSlide}{\beamergotobutton{Go to another backup slide}}
+	\heading{Questions?}
 \end{frame}
 
 \lastslide
 
-\begin{frame}[label=backupSlide]
-\frametitle{First backup slide}
-\begin{itemize}
-\item Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-\item  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. 
-\end{itemize}
-\hyperlink{firstSlide}{\beamergotobutton{Return to main slide}}
-\end{frame}
 
-\begin{frame}[label=anotherBackupSlide]
-\frametitle{Another backup slide}
-\begin{enumerate}
-\item Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
-\item  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-\item Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. 
-\end{enumerate}
-\hyperlink{firstSlide}{\beamergotobutton{Return to main slide}}
-\end{frame}
 
 \end{document}
